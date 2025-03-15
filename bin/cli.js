@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const {program} = require('commander');
 const chalk = require('chalk');
-const {create} = require('../lib/create');
+const {create} = require('../lib/create.js');
 const packageInfo = require('../package.json');
 program
   .version(packageInfo.version);
